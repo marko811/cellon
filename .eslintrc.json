@@ -1,0 +1,93 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+    "jsx": true
+    }
+  },
+  "rules": {
+    "prettier/prettier": ["error"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/no-extraneous-dependencies": 0,
+    "prefer-destructuring": ["error", { "object": true, "array": false }],
+    "react/require-default-props": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/prefer-stateless-function": 0,
+    "react/no-unused-prop-types": 1,
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": false,
+        "varsIgnorePattern": "[iI]gnored"
+      }
+    ],
+    "no-unused-expressions": [
+      "error",
+      {
+        "allowTaggedTemplates": true,
+        "allowTernary": true,
+        "allowShortCircuit": true
+      }
+    ],
+    "react/prop-types": 2,
+    "comma-dangle": ["error", "always-multiline"],
+    "import/named": 2,
+    "import/no-unresolved": [2, { "ignore": ["common"] }],
+    "semi": ["error", "always"],
+    "react/destructuring-assignment": 2,
+    "react/jsx-indent": [0],
+    "no-shadow": "off",
+    "object-curly-spacing": "off",
+    "no-else-return": ["error", { "allowElseIf": true }],
+    "camelcase": [0, { "properties": "never" }],
+    "import/prefer-default-export": true,
+    "import/order": 2,
+    "import/no-cycle": 1,
+    "react/no-unescaped-entities": 1,
+    "no-use-before-define": 1,
+    "no-plusplus": 1,
+    "no-unneeded-ternary": 1,
+    "no-case-declarations": 0,
+    "no-param-reassign": 0,
+    "guard-for-in": 0,
+    "no-restricted-syntax": 0,
+    "no-prototype-builtins": 0,
+    "no-nested-ternary": 0,
+    "consistent-return": 0,
+    "global-require": 0,
+    "no-return-assign": 0,
+    "react/jsx-no-bind": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "jsx-a11y/label-has-for": [
+      2,
+      {
+        "required": {
+         "every": ["id"]
+        }
+      }
+    ],
+    "new-cap": 0,
+    "react/no-array-index-key": 0
+  },
+  
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true,
+    "browser": true
+  },
+  "globals": {
+    "__API_URI__": false,
+    "__TITLE__": false,
+    "__DEBUG__": false
+  }
+}
