@@ -584,26 +584,6 @@
     universal-user-agent "^2.0.0"
     url-template "^2.0.8"
 
-"@react-navigation/core@3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-3.0.3.tgz#2c88f0553656fba04ff84a50711c35618bec1a72"
-  dependencies:
-    create-react-context "0.2.2"
-    hoist-non-react-statics "^3.0.1"
-    path-to-regexp "^1.7.0"
-    query-string "^6.2.0"
-    react-is "^16.5.2"
-    react-lifecycles-compat "^3.0.4"
-
-"@react-navigation/native@3.1.3":
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-3.1.3.tgz#8c64e0306b54948f7616e65436f5b03f7872dc70"
-  dependencies:
-    hoist-non-react-statics "^3.0.1"
-    react-native-gesture-handler "~1.0.14"
-    react-native-safe-area-view "^0.12.0"
-    react-native-screens "^1.0.0 || ^1.0.0-alpha"
-
 "@redux-saga/core@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@redux-saga/core/-/core-1.0.2.tgz#4336a5bb4253e5ca69681c25a863fbbc03ea6d88"
@@ -1934,13 +1914,6 @@ create-react-class@^15.6.3:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
-create-react-context@0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/create-react-context/-/create-react-context-0.2.2.tgz#9836542f9aaa22868cd7d4a6f82667df38019dca"
-  dependencies:
-    fbjs "^0.8.0"
-    gud "^1.0.0"
-
 cross-spawn@^5.0.1, cross-spawn@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
@@ -2744,7 +2717,7 @@ fbjs-scripts@^1.0.0:
     semver "^5.1.0"
     through2 "^2.0.0"
 
-fbjs@^0.8.0, fbjs@^0.8.9:
+fbjs@^0.8.9:
   version "0.8.17"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
   dependencies:
@@ -3208,10 +3181,6 @@ growly@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
 
-gud@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gud/-/gud-1.0.0.tgz#a489581b17e6a70beca9abe3ae57de7a499852c0"
-
 handlebars@^4.0.11:
   version "4.0.12"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.0.12.tgz#2c15c8a96d46da5e266700518ba8cb8d919d5bc5"
@@ -3301,11 +3270,11 @@ hoist-non-react-statics@^1.0.5:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-1.2.0.tgz#aa448cf0986d55cc40773b17174b7dd066cb7cfb"
 
-hoist-non-react-statics@^2.3.1, hoist-non-react-statics@^2.5.0:
+hoist-non-react-statics@^2.3.1:
   version "2.5.5"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
 
-hoist-non-react-statics@^3.0.1, hoist-non-react-statics@^3.1.0:
+hoist-non-react-statics@^3.1.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.0.tgz#b09178f0122184fb95acf525daaecb4d8f45958b"
   dependencies:
@@ -6215,12 +6184,6 @@ path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
 
-path-to-regexp@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-1.7.0.tgz#59fde0f435badacba103a84e9d3bc64e96b9937d"
-  dependencies:
-    isarray "0.0.1"
-
 path-type@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-1.1.0.tgz#59c44f7ee491da704da415da5a4070ba4f8fe441"
@@ -6580,13 +6543,13 @@ react-devtools-core@^3.4.2:
     shell-quote "^1.6.1"
     ws "^3.3.1"
 
-react-is@^16.5.2, react-is@^16.6.3, react-is@^16.7.0:
-  version "16.7.0"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.7.0.tgz#c1bd21c64f1f1364c6f70695ec02d69392f41bfa"
-
 react-is@^16.6.0:
   version "16.8.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.2.tgz#09891d324cad1cb0c1f2d91f70a71a4bee34df0f"
+
+react-is@^16.6.3, react-is@^16.7.0:
+  version "16.7.0"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.7.0.tgz#c1bd21c64f1f1364c6f70695ec02d69392f41bfa"
 
 react-is@^16.8.1:
   version "16.8.1"
@@ -6597,7 +6560,7 @@ react-lifecycles-compat@^2.0.0:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-2.0.2.tgz#00a23160eec17a43b94dd74f95d44a1a2c3c5ec1"
   integrity sha512-BPksUj7VMAAFhcCw79sZA0Ow/LTAEjs3Sio1AQcuwLeOP+ua0f/08Su2wyiW+JjDDH6fRqNy3h5CLXh21u1mVg==
 
-react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.4:
+react-lifecycles-compat@^3.0.0:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
@@ -6649,7 +6612,7 @@ react-native-fbsdk@^0.8.0:
     pump "^1.0.2"
     xcode "^0.9.3"
 
-react-native-gesture-handler@^1.0.15, react-native-gesture-handler@~1.0.14:
+react-native-gesture-handler@^1.0.15:
   version "1.0.15"
   resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.0.15.tgz#7e0d0a457820a3c9325a3d492daaed14400508a6"
   dependencies:
@@ -6709,16 +6672,6 @@ react-native-ratings@^6.3.0:
     lodash "^4.17.4"
     prop-types "^15.5.10"
 
-react-native-safe-area-view@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/react-native-safe-area-view/-/react-native-safe-area-view-0.12.0.tgz#5c312f087300ecf82e8541c3eac25d560e147f22"
-  dependencies:
-    hoist-non-react-statics "^2.3.1"
-
-"react-native-screens@^1.0.0 || ^1.0.0-alpha":
-  version "1.0.0-alpha.22"
-  resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-1.0.0-alpha.22.tgz#7a120377b52aa9bbb94d0b8541a014026be9289b"
-
 react-native-slideshow@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-native-slideshow/-/react-native-slideshow-1.0.1.tgz#1eac6bd5d1362aac52b8a2f33f3ebc1f88da9402"
@@ -6727,12 +6680,6 @@ react-native-status-bar-height@^2.2.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/react-native-status-bar-height/-/react-native-status-bar-height-2.3.1.tgz#b92ce9112c2367290847ac11284d9d84a6330169"
   integrity sha512-m9nGKYfFn6ljF1abafzF5cFaD9JCzXwj7kNE9CuF+g0TgtItH70eY2uHaCV9moENTftqd5XIS3Cx0mf4WfistA==
-
-react-native-tab-view@^1.0.0, react-native-tab-view@^1.2.0:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-1.3.2.tgz#c4e43a538dcacce151938745cea09176beeccbc3"
-  dependencies:
-    prop-types "^15.6.1"
 
 react-native-vector-icons@6.1.0:
   version "6.1.0"
@@ -6811,40 +6758,16 @@ react-native@0.58.3:
     xmldoc "^0.4.0"
     yargs "^9.0.0"
 
-react-navigation-drawer@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/react-navigation-drawer/-/react-navigation-drawer-1.1.0.tgz#e39dbf493c77890c90f8ed4d83d06c87af65abf0"
-  dependencies:
-    react-native-tab-view "^1.2.0"
-
 react-navigation-redux-helpers@^2.0.5:
   version "2.0.9"
   resolved "https://registry.yarnpkg.com/react-navigation-redux-helpers/-/react-navigation-redux-helpers-2.0.9.tgz#244e7ebbc43481602b1e7948a491b34a312dca06"
   dependencies:
     invariant "^2.2.2"
 
-react-navigation-stack@1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/react-navigation-stack/-/react-navigation-stack-1.0.6.tgz#5c2b6617dccc1de6001b387cd967baa6b205132d"
-
-react-navigation-tabs@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-navigation-tabs/-/react-navigation-tabs-1.0.2.tgz#cc6c61db0c61054388ef6f726a8ffc183d6095b5"
-  dependencies:
-    hoist-non-react-statics "^2.5.0"
-    prop-types "^15.6.1"
-    react-lifecycles-compat "^3.0.4"
-    react-native-tab-view "^1.0.0"
-
-react-navigation@^3.0.9:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/react-navigation/-/react-navigation-3.1.2.tgz#5d75bc1c725f3a874f18bc7097155a513264904d"
-  dependencies:
-    "@react-navigation/core" "3.0.3"
-    "@react-navigation/native" "3.1.3"
-    react-navigation-drawer "1.1.0"
-    react-navigation-stack "1.0.6"
-    react-navigation-tabs "1.0.2"
+react-navigation@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/react-navigation/-/react-navigation-5.0.0.tgz#a7dd98a6148ba997834ebcf5a5073bdb3d4f4eb3"
+  integrity sha512-ACTzjc4L1ik7rJ092ZhIELBJ/pnoLgRIqWHSKcYcaBASxyjJCgBEDIV5s585HBj55tw25YwNdlj3+d4B4MYWDg==
 
 react-proxy@^1.1.7:
   version "1.1.8"
